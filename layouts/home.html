@@ -1,0 +1,26 @@
+{{/*
+  Replaces the theme's own layouts/home.html (a file here wins over the theme's).
+  Differences from the theme's version:
+    - the footer line is removed (this site has no footer)
+    - the photo and the text from content/_index.md are added
+    - the subtitle, social icons, background image and fade-in animation are left out
+*/}}
+{{ define "main" }}
+  <main id="spotlight">
+    <div id="home-center">
+      <h1 id="home-title">{{ .Site.Title }}</h1>
+      {{ with resources.Get "images/photo.jpg" }}
+        {{/* The original file is 574x562, so 560x560 is the largest crop that is not stretched */}}
+        {{ $photo := .Fill "560x560 Smart" }}
+        <img src="{{ $photo.RelPermalink }}" width="400" height="400" alt="Photo of Danny"
+             style="display: block; margin: 0 auto 1.5em; border-radius: 50%;">
+      {{ end }}
+      <div style="max-width: 40em; margin: 0 auto 1.5em; text-align: center;">
+        {{ .Content }}
+      </div>
+      <nav id="home-nav" class="site-nav" style="font-size: 0.85em;">
+        {{ partialCached "menu.html" . }}
+      </nav>
+    </div>
+  </main>
+{{ end }}

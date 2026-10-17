@@ -1,0 +1,33 @@
+# The final address of the site. "hugo server" ignores this and uses localhost.
+baseURL = 'https://xdanny322.com/'
+locale = 'en-us'
+title = "Danny (Ho Yin) Lai"
+
+# Must match the folder name inside themes/.
+theme = 'hermit-v2'
+
+# One-page site: without this, Hugo also builds empty /tags/ and /categories/ pages.
+disableKinds = ['taxonomy', 'term', 'section']
+
+# The links on the home page. "weight" sets the order, lowest first.
+
+# TODO Check in PDF versions of my resume
+# [[menus.main]]
+#   name = 'Resume'
+#   url = '/resume.pdf'
+#   weight = 10
+
+[[menus.main]]
+  name = 'Facebook'
+  url = 'https://www.facebook.com/xdanny322'
+  weight = 40
+
+[[menus.main]]
+  name = 'LinkedIn'
+  url = 'https://www.linkedin.com/in/xdanny322/'
+  weight = 30
+
+[[menus.main]]
+  name = 'GitHub'
+  url = 'https://github.com/XDanny322'
+  weight = 20

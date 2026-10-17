@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Single-colour version for Safari's pinned-tab icon, which only uses the shape.
+       The mask cuts the letters out of the circle so they show as holes. -->
+  <mask id="letters">
+    <rect width="64" height="64" fill="#ffffff"/>
+    <text x="32" y="32" text-anchor="middle" dominant-baseline="central"
+          font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#000000">DL</text>
+  </mask>
+  <circle cx="32" cy="32" r="32" fill="#000000" mask="url(#letters)"/>
+</svg>
