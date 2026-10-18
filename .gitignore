@@ -4,3 +4,5 @@ resources/
 
 # Hugo's lock file, created every time you run it.
 .hugo_build.lock
+
+.playwright-mcp

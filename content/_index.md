@@ -1,10 +1,10 @@
 +++
-title = 'Home'
+title = 'Danny Lai'
 +++
 
-Hi, I'm a technology engineer with 20 years building infrastructure that other engineers actually want to use. I've done electronic trade support (no "oops!" moments allowed) and now wrangle cloud/Kubernetes/platform engineering. I turn manual chaos into systems that just work—so teams ship with confidence and I sleep at night.
+20 years building and automating infrastructure for electronic trading / financial information platform , now cloud / Kubernetes / platform engineering. I automate chaos into reliable pipelines so teams ship fast and systems don't page me at 3am.
 
-At home: four kids, grandparents nearby, and a wife who's my VP of Child Deflection. She keeps them off my back so I can work... or debate with AI why my build failed.
+At home: four kids, all grandparents, and a wife who's my VP of Child Deflection. She handles the chaos so I can work... or troubleshoot / ask AI why CI/CD is broken again.
 
-<!-- Take a look at my resume below. -->
-Some links about me below, along with my resume.
+<!-- Some links about me below, along with my resume. -->
+Some links about me below.
