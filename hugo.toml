@@ -11,11 +11,10 @@ disableKinds = ['taxonomy', 'term', 'section']
 
 # The links on the home page. "weight" sets the order, lowest first.
 
-# TODO Check in PDF versions of my resume
-# [[menus.main]]
-#   name = 'Resume'
-#   url = '/resume.pdf'
-#   weight = 10
+[[menus.main]]
+  name = 'Resume'
+  url = '/resume.pdf'
+  weight = 10
 
 [[menus.main]]
   name = 'Facebook'
